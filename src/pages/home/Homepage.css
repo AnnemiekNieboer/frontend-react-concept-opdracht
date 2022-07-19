@@ -64,7 +64,7 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 40px;
-    width: 100%;
+    width: 1200px;
 }
 
 .hottest-posts__card {
@@ -80,6 +80,14 @@ main {
 
 .hottest-posts__card-header {
     font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--main-font-color-dark);
+}
+
+.hottest-posts__card-header-link {
+    text-decoration: none;
 }
 
 .hottest-posts__card-link {

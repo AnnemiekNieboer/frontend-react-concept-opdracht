@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../frontend-react-concept-opdracht-les-5/.idea/frontend-react-concept-opdracht-les-5.iml" filepath="$PROJECT_DIR$/../frontend-react-concept-opdracht-les-5/.idea/frontend-react-concept-opdracht-les-5.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/frontend-react-conceptopdracht.iml" filepath="$PROJECT_DIR$/.idea/frontend-react-conceptopdracht.iml" />
     </modules>
   </component>

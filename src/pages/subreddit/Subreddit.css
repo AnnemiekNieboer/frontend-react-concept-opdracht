@@ -1,0 +1,22 @@
+.subreddit-main {
+    align-items: flex-start;
+    margin: 90px 0 50px 0;
+}
+
+.subreddit-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.subreddit-text {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.subreddit-link {
+    color: var(--main-focus-color);
+    font-size: 10px;
+    font-weight: 600;
+    margin: 60px 0;
+}
