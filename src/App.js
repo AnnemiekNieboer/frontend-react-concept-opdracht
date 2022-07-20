@@ -11,8 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <Router>
-
+        <>
             <Switch>
                 <Route exact path="/">
                     <Homepage/>
@@ -22,7 +21,7 @@ function App() {
                 </Route>
             </Switch>
             <Footer/>
-        </Router>
+        </>
     );
 }
 

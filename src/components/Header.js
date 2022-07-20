@@ -11,16 +11,17 @@ function Header({children}) {
                             <NavLink className="header-navigation__nav-link" to="/">hottest posts</NavLink>
                         </li>
                         <li className="header-navigation__list-items">
-                            <NavLink className="header-navigation__nav-link" to="/">reddit</NavLink>
+                            <a className="header-navigation__nav-link" href="https://www.reddit.com/">reddit</a>
                         </li>
                         <li className="header-navigation__list-items">
-                            <NavLink className="header-navigation__nav-link" to="/">memes</NavLink></li>
+                            <NavLink className="header-navigation__nav-link" to="/subreddit/memes">memes</NavLink></li>
                     </ul>
                 </nav>
                 <div className="header__hero-section">
                     {children}
                 </div>
             </div>
-        </header>    );
+        </header>
+    );
 }
 export default Header;
